@@ -1,0 +1,25 @@
+00:00:02.373100 VirtualBox GUI VM Selector Window 6.1.18 r142142 linux.amd64 (Feb 16 2021 07:45:49) release log
+00:00:02.373108 Log opened 2021-02-25T00:06:05.992647000Z
+00:00:02.373111 Build Type: release
+00:00:02.373117 OS Product: Linux
+00:00:02.373120 OS Release: 5.11.1-arch1-1
+00:00:02.373123 OS Version: #1 SMP PREEMPT Tue, 23 Feb 2021 14:05:30 +0000
+00:00:02.373207 DMI Product Name: Satellite C660D
+00:00:02.373251 DMI Product Version: PSC22E-00E00PGR
+00:00:02.373282 Firmware type: BIOS
+00:00:02.373409 Host RAM: 3909MB (3.8GB) total, 2149MB (2.0GB) available
+00:00:02.373419 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.373421 Process ID: 5808
+00:00:02.373423 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:02.373570 Qt version: 5.15.2
+00:00:02.651605 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:05.568058 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x22 x 1366x746
+00:00:05.697732 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:01.183954 GUI: UIMediumEnumerator: Medium with key={{b69dcdf0-d6e5-4d88-90fd-f162589eec68}} created
+00:01:01.384318 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:03.511479 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:03.579842 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:45.599287 GUI: UIMediumEnumerator: Medium with key={{45ab147b-4751-4f81-926c-153592f4dac7}} created
+00:08:45.806486 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:49.051376 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:49.122807 GUI: UIMediumEnumerator: Medium-enumeration finished!

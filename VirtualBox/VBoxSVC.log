@@ -1,0 +1,432 @@
+00:00:00.017146 main     VirtualBox XPCOM Server 6.1.18 r142142 linux.amd64 (Feb 16 2021 07:45:49) release log
+00:00:00.017161 main     Log opened 2021-02-25T00:06:05.332313000Z
+00:00:00.017165 main     Build Type: release
+00:00:00.017174 main     OS Product: Linux
+00:00:00.017177 main     OS Release: 5.11.1-arch1-1
+00:00:00.017181 main     OS Version: #1 SMP PREEMPT Tue, 23 Feb 2021 14:05:30 +0000
+00:00:00.017311 main     DMI Product Name: Satellite C660D
+00:00:00.017358 main     DMI Product Version: PSC22E-00E00PGR
+00:00:00.017397 main     Firmware type: BIOS
+00:00:00.017535 main     Host RAM: 3909MB (3.8GB) total, 2144MB (2.0GB) available
+00:00:00.017545 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.017547 main     Process ID: 5838
+00:00:00.017549 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.022728 main     IPC socket path: /tmp/.vbox-victor-ipc/ipcd
+00:00:00.143855 nspr-2   VirtualBox: object creation starts
+00:00:00.144069 nspr-2   Home directory: '/home/victor/.config/VirtualBox'
+00:00:00.145078 nspr-2   Loading settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.159261 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.175544 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.177135 nspr-2   HostDnsMonitor: initializing
+00:00:00.178155 nspr-2   NAT: resolv.conf: nameserver 194.158.206.205
+00:00:00.178218 nspr-2   NAT: resolv.conf: nameserver 194.158.206.206
+00:00:00.178242 nspr-2   NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:00:00.178262 nspr-2   NAT: resolv.conf: nameserver fe80::1
+00:00:00.178308 nspr-2   HostDnsMonitor: updating information
+00:00:00.178371 nspr-2   HostDnsMonitor: old information
+00:00:00.178390 nspr-2     no server entries
+00:00:00.178406 nspr-2     no domain set
+00:00:00.178421 nspr-2     no search string entries
+00:00:00.178438 nspr-2   HostDnsMonitor: new information
+00:00:00.178453 nspr-2     server 1: 194.158.206.205
+00:00:00.178470 nspr-2     server 2: 194.158.206.206
+00:00:00.178487 nspr-2     server 3: fe80::1%wlan0
+00:00:00.178504 nspr-2     no domain set
+00:00:00.178518 nspr-2     no search string entries
+00:00:00.213137 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.276472 nspr-2   Loading settings file "/home/victor/VirtualBox VMs/Tests/Tests.vbox" with version "1.16-linux"
+00:00:00.284963 nspr-2   Loading settings file "/home/victor/VirtualBox VMs/Installations/Installations.vbox" with version "1.16-linux"
+00:00:00.295872 nspr-2   OCI: Local config file '/home/victor/.config/VirtualBox/oci_config' does not exist
+00:00:00.295965 nspr-2   OCI: Original config file '/home/victor/.oci/config' does not exist
+00:00:00.295986 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.296018 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.296530 nspr-2   VirtualBox: object created
+00:00:15.004199 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:15.051302 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:59.503168 nspr-4   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:01.115231 nspr-2   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:01.472539 nspr-5   Saving settings file "/home/victor/VirtualBox VMs/Tests/Tests.vbox" with version "1.16-linux"
+00:01:03.122899 nspr-4   Launched VM: 469769696 pid: 5892 (0x1704) frontend: GUI/Qt name: Tests
+00:01:08.620346 nspr-6   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:01:09.292855 nspr-7   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:09.461946 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:04:11.845472 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:04:11.845565 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:04:11.845594 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:11.845614 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:11.845835 dns-monitor HostDnsMonitor: updating information
+00:04:11.845862 dns-monitor HostDnsMonitor: unchanged
+00:04:11.927840 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:04:11.927922 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:04:11.927975 dns-monitor HostDnsMonitor: updating information
+00:04:11.928944 dns-monitor HostDnsMonitor: old information
+00:04:11.929011 dns-monitor   server 1: 194.158.206.205
+00:04:11.929034 dns-monitor   server 2: 194.158.206.206
+00:04:11.929052 dns-monitor   server 3: fe80::1%wlan0
+00:04:11.929071 dns-monitor   no domain set
+00:04:11.929088 dns-monitor   no search string entries
+00:04:11.929106 dns-monitor HostDnsMonitor: new information
+00:04:11.929123 dns-monitor   server 1: 194.158.206.205
+00:04:11.929140 dns-monitor   server 2: 194.158.206.206
+00:04:11.929159 dns-monitor   no domain set
+00:04:11.929175 dns-monitor   no search string entries
+00:04:11.984584 dns-monitor HostDnsMonitor: updating information
+00:04:11.984644 dns-monitor HostDnsMonitor: old information
+00:04:11.984662 dns-monitor   server 1: 194.158.206.205
+00:04:11.984684 dns-monitor   server 2: 194.158.206.206
+00:04:11.984704 dns-monitor   no domain set
+00:04:11.984722 dns-monitor   no search string entries
+00:04:11.984739 dns-monitor HostDnsMonitor: new information
+00:04:11.984757 dns-monitor   no server entries
+00:04:11.984774 dns-monitor   no domain set
+00:04:11.984792 dns-monitor   no search string entries
+00:04:15.758431 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:15.758505 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:15.758560 dns-monitor HostDnsMonitor: updating information
+00:04:15.758581 dns-monitor HostDnsMonitor: old information
+00:04:15.758600 dns-monitor   no server entries
+00:04:15.758618 dns-monitor   no domain set
+00:04:15.758635 dns-monitor   no search string entries
+00:04:15.758679 dns-monitor HostDnsMonitor: new information
+00:04:15.758697 dns-monitor   server 1: fe80::1%wlan0
+00:04:15.758717 dns-monitor   no domain set
+00:04:15.758733 dns-monitor   no search string entries
+00:04:16.925903 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:16.925973 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:16.926027 dns-monitor HostDnsMonitor: updating information
+00:04:16.926049 dns-monitor HostDnsMonitor: unchanged
+00:04:22.967705 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:04:22.967760 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:04:22.967786 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:22.967806 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:22.967998 dns-monitor HostDnsMonitor: updating information
+00:04:22.968022 dns-monitor HostDnsMonitor: old information
+00:04:22.968039 dns-monitor   server 1: fe80::1%wlan0
+00:04:22.968059 dns-monitor   no domain set
+00:04:22.968075 dns-monitor   no search string entries
+00:04:22.968092 dns-monitor HostDnsMonitor: new information
+00:04:22.968109 dns-monitor   server 1: 194.158.206.205
+00:04:22.968127 dns-monitor   server 2: 194.158.206.206
+00:04:22.968144 dns-monitor   server 3: fe80::1%wlan0
+00:04:22.968163 dns-monitor   no domain set
+00:04:22.968179 dns-monitor   no search string entries
+00:04:37.710315 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:04:37.710366 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:04:37.710390 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:37.710410 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:37.710452 dns-monitor HostDnsMonitor: updating information
+00:04:37.710511 dns-monitor HostDnsMonitor: unchanged
+00:04:37.809639 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:04:37.809697 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:04:37.809746 dns-monitor HostDnsMonitor: updating information
+00:04:37.809766 dns-monitor HostDnsMonitor: old information
+00:04:37.809782 dns-monitor   server 1: 194.158.206.205
+00:04:37.809800 dns-monitor   server 2: 194.158.206.206
+00:04:37.809817 dns-monitor   server 3: fe80::1%wlan0
+00:04:37.809834 dns-monitor   no domain set
+00:04:37.809849 dns-monitor   no search string entries
+00:04:37.809865 dns-monitor HostDnsMonitor: new information
+00:04:37.809881 dns-monitor   server 1: 194.158.206.205
+00:04:37.809897 dns-monitor   server 2: 194.158.206.206
+00:04:37.809914 dns-monitor   no domain set
+00:04:37.809929 dns-monitor   no search string entries
+00:04:37.850358 dns-monitor HostDnsMonitor: updating information
+00:04:37.850399 dns-monitor HostDnsMonitor: old information
+00:04:37.850416 dns-monitor   server 1: 194.158.206.205
+00:04:37.850494 dns-monitor   server 2: 194.158.206.206
+00:04:37.850514 dns-monitor   no domain set
+00:04:37.850530 dns-monitor   no search string entries
+00:04:37.850546 dns-monitor HostDnsMonitor: new information
+00:04:37.850560 dns-monitor   no server entries
+00:04:37.850576 dns-monitor   no domain set
+00:04:37.850591 dns-monitor   no search string entries
+00:04:44.484608 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:44.484664 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:44.484911 dns-monitor HostDnsMonitor: updating information
+00:04:44.484995 dns-monitor HostDnsMonitor: old information
+00:04:44.485021 dns-monitor   no server entries
+00:04:44.485042 dns-monitor   no domain set
+00:04:44.485062 dns-monitor   no search string entries
+00:04:44.485154 dns-monitor HostDnsMonitor: new information
+00:04:44.485176 dns-monitor   server 1: fe80::1%wlan0
+00:04:44.485199 dns-monitor   no domain set
+00:04:44.485219 dns-monitor   no search string entries
+00:04:45.605745 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:45.605793 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:45.606038 dns-monitor HostDnsMonitor: updating information
+00:04:45.606141 dns-monitor HostDnsMonitor: unchanged
+00:04:49.097066 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:04:49.097134 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:04:49.097161 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:04:49.097181 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:04:49.097242 dns-monitor HostDnsMonitor: updating information
+00:04:49.097264 dns-monitor HostDnsMonitor: old information
+00:04:49.097282 dns-monitor   server 1: fe80::1%wlan0
+00:04:49.097301 dns-monitor   no domain set
+00:04:49.097319 dns-monitor   no search string entries
+00:04:49.097336 dns-monitor HostDnsMonitor: new information
+00:04:49.097353 dns-monitor   server 1: 194.158.206.205
+00:04:49.097371 dns-monitor   server 2: 194.158.206.206
+00:04:49.097390 dns-monitor   server 3: fe80::1%wlan0
+00:04:49.097408 dns-monitor   no domain set
+00:04:49.097425 dns-monitor   no search string entries
+00:05:17.547454 nspr-2   Saving settings file "/home/victor/VirtualBox VMs/Tests/Tests.vbox" with version "1.16-linux"
+00:05:30.793595 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:05:30.793645 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:05:30.793670 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:05:30.793688 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:05:30.793731 dns-monitor HostDnsMonitor: updating information
+00:05:30.793751 dns-monitor HostDnsMonitor: unchanged
+00:05:30.891234 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:05:30.891276 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:05:30.891338 dns-monitor HostDnsMonitor: updating information
+00:05:30.891396 dns-monitor HostDnsMonitor: old information
+00:05:30.891417 dns-monitor   server 1: 194.158.206.205
+00:05:30.891435 dns-monitor   server 2: 194.158.206.206
+00:05:30.891503 dns-monitor   server 3: fe80::1%wlan0
+00:05:30.891520 dns-monitor   no domain set
+00:05:30.891535 dns-monitor   no search string entries
+00:05:30.891550 dns-monitor HostDnsMonitor: new information
+00:05:30.891565 dns-monitor   server 1: 194.158.206.205
+00:05:30.891581 dns-monitor   server 2: 194.158.206.206
+00:05:30.891597 dns-monitor   no domain set
+00:05:30.891611 dns-monitor   no search string entries
+00:05:30.973806 dns-monitor HostDnsMonitor: updating information
+00:05:30.973843 dns-monitor HostDnsMonitor: old information
+00:05:30.973859 dns-monitor   server 1: 194.158.206.205
+00:05:30.973876 dns-monitor   server 2: 194.158.206.206
+00:05:30.973891 dns-monitor   no domain set
+00:05:30.973906 dns-monitor   no search string entries
+00:05:30.973921 dns-monitor HostDnsMonitor: new information
+00:05:30.973935 dns-monitor   no server entries
+00:05:30.973950 dns-monitor   no domain set
+00:05:30.973964 dns-monitor   no search string entries
+00:05:35.684372 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:05:35.684409 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:05:35.684446 dns-monitor HostDnsMonitor: updating information
+00:05:35.684463 dns-monitor HostDnsMonitor: old information
+00:05:35.684478 dns-monitor   no server entries
+00:05:35.684493 dns-monitor   no domain set
+00:05:35.684507 dns-monitor   no search string entries
+00:05:35.684522 dns-monitor HostDnsMonitor: new information
+00:05:35.684536 dns-monitor   server 1: fe80::1%wlan0
+00:05:35.684552 dns-monitor   no domain set
+00:05:35.684566 dns-monitor   no search string entries
+00:05:36.866357 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:05:36.866461 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:05:36.866498 dns-monitor HostDnsMonitor: updating information
+00:05:36.866516 dns-monitor HostDnsMonitor: unchanged
+00:05:40.536011 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:05:40.536113 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:05:40.536145 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:05:40.536162 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:05:40.536206 dns-monitor HostDnsMonitor: updating information
+00:05:40.536224 dns-monitor HostDnsMonitor: old information
+00:05:40.536239 dns-monitor   server 1: fe80::1%wlan0
+00:05:40.536255 dns-monitor   no domain set
+00:05:40.536269 dns-monitor   no search string entries
+00:05:40.536284 dns-monitor HostDnsMonitor: new information
+00:05:40.536298 dns-monitor   server 1: 194.158.206.205
+00:05:40.536314 dns-monitor   server 2: 194.158.206.206
+00:05:40.536329 dns-monitor   server 3: fe80::1%wlan0
+00:05:40.536345 dns-monitor   no domain set
+00:05:40.536359 dns-monitor   no search string entries
+00:06:22.848743 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:06:22.848790 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:06:22.848814 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:06:22.848832 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:06:22.848870 dns-monitor HostDnsMonitor: updating information
+00:06:22.848890 dns-monitor HostDnsMonitor: unchanged
+00:06:22.929116 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:06:22.929178 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:06:22.929230 dns-monitor HostDnsMonitor: updating information
+00:06:22.929299 dns-monitor HostDnsMonitor: old information
+00:06:22.929320 dns-monitor   server 1: 194.158.206.205
+00:06:22.929341 dns-monitor   server 2: 194.158.206.206
+00:06:22.929360 dns-monitor   server 3: fe80::1%wlan0
+00:06:22.929379 dns-monitor   no domain set
+00:06:22.929446 dns-monitor   no search string entries
+00:06:22.929464 dns-monitor HostDnsMonitor: new information
+00:06:22.929481 dns-monitor   server 1: 194.158.206.205
+00:06:22.929499 dns-monitor   server 2: 194.158.206.206
+00:06:22.929518 dns-monitor   no domain set
+00:06:22.929536 dns-monitor   no search string entries
+00:06:22.983997 dns-monitor HostDnsMonitor: updating information
+00:06:22.984036 dns-monitor HostDnsMonitor: old information
+00:06:22.984105 dns-monitor   server 1: 194.158.206.205
+00:06:22.984122 dns-monitor   server 2: 194.158.206.206
+00:06:22.984138 dns-monitor   no domain set
+00:06:22.984152 dns-monitor   no search string entries
+00:06:22.984167 dns-monitor HostDnsMonitor: new information
+00:06:22.984181 dns-monitor   no server entries
+00:06:22.984195 dns-monitor   no domain set
+00:06:22.984209 dns-monitor   no search string entries
+00:06:28.415695 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:06:28.415733 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:06:28.415773 dns-monitor HostDnsMonitor: updating information
+00:06:28.415835 dns-monitor HostDnsMonitor: old information
+00:06:28.415853 dns-monitor   no server entries
+00:06:28.415868 dns-monitor   no domain set
+00:06:28.415881 dns-monitor   no search string entries
+00:06:28.415896 dns-monitor HostDnsMonitor: new information
+00:06:28.415910 dns-monitor   server 1: fe80::1%wlan0
+00:06:28.415926 dns-monitor   no domain set
+00:06:28.415940 dns-monitor   no search string entries
+00:06:29.556475 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:06:29.556512 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:06:29.556557 dns-monitor HostDnsMonitor: updating information
+00:06:29.556576 dns-monitor HostDnsMonitor: unchanged
+00:06:33.100600 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:06:33.100645 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:06:33.100668 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:06:33.100686 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:06:33.100726 dns-monitor HostDnsMonitor: updating information
+00:06:33.100743 dns-monitor HostDnsMonitor: old information
+00:06:33.100758 dns-monitor   server 1: fe80::1%wlan0
+00:06:33.100775 dns-monitor   no domain set
+00:06:33.100790 dns-monitor   no search string entries
+00:06:33.100805 dns-monitor HostDnsMonitor: new information
+00:06:33.100819 dns-monitor   server 1: 194.158.206.205
+00:06:33.100835 dns-monitor   server 2: 194.158.206.206
+00:06:33.100851 dns-monitor   server 3: fe80::1%wlan0
+00:06:33.100867 dns-monitor   no domain set
+00:06:33.100881 dns-monitor   no search string entries
+00:07:14.753818 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:07:14.753865 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:07:14.753890 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:07:14.753909 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:07:14.753947 dns-monitor HostDnsMonitor: updating information
+00:07:14.753966 dns-monitor HostDnsMonitor: unchanged
+00:07:14.887604 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:07:14.887645 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:07:14.887685 dns-monitor HostDnsMonitor: updating information
+00:07:14.887736 dns-monitor HostDnsMonitor: old information
+00:07:14.887756 dns-monitor   server 1: 194.158.206.205
+00:07:14.887775 dns-monitor   server 2: 194.158.206.206
+00:07:14.887793 dns-monitor   server 3: fe80::1%wlan0
+00:07:14.887812 dns-monitor   no domain set
+00:07:14.887828 dns-monitor   no search string entries
+00:07:14.887845 dns-monitor HostDnsMonitor: new information
+00:07:14.887862 dns-monitor   server 1: 194.158.206.205
+00:07:14.887880 dns-monitor   server 2: 194.158.206.206
+00:07:14.887898 dns-monitor   no domain set
+00:07:14.887914 dns-monitor   no search string entries
+00:07:14.949467 dns-monitor HostDnsMonitor: updating information
+00:07:14.949499 dns-monitor HostDnsMonitor: old information
+00:07:14.949516 dns-monitor   server 1: 194.158.206.205
+00:07:14.949534 dns-monitor   server 2: 194.158.206.206
+00:07:14.949551 dns-monitor   no domain set
+00:07:14.949567 dns-monitor   no search string entries
+00:07:14.949584 dns-monitor HostDnsMonitor: new information
+00:07:14.949600 dns-monitor   no server entries
+00:07:14.949617 dns-monitor   no domain set
+00:07:14.949633 dns-monitor   no search string entries
+00:07:19.065124 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:07:19.065164 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:07:19.065252 dns-monitor HostDnsMonitor: updating information
+00:07:19.065271 dns-monitor HostDnsMonitor: old information
+00:07:19.065285 dns-monitor   no server entries
+00:07:19.065300 dns-monitor   no domain set
+00:07:19.065314 dns-monitor   no search string entries
+00:07:19.065328 dns-monitor HostDnsMonitor: new information
+00:07:19.065342 dns-monitor   server 1: fe80::1%wlan0
+00:07:19.065357 dns-monitor   no domain set
+00:07:19.065371 dns-monitor   no search string entries
+00:07:20.263276 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:07:20.263309 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:07:20.263345 dns-monitor HostDnsMonitor: updating information
+00:07:20.263363 dns-monitor HostDnsMonitor: unchanged
+00:07:25.433841 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:07:25.433893 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:07:25.433917 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:07:25.433935 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:07:25.433976 dns-monitor HostDnsMonitor: updating information
+00:07:25.433994 dns-monitor HostDnsMonitor: old information
+00:07:25.434009 dns-monitor   server 1: fe80::1%wlan0
+00:07:25.434025 dns-monitor   no domain set
+00:07:25.434039 dns-monitor   no search string entries
+00:07:25.434054 dns-monitor HostDnsMonitor: new information
+00:07:25.434068 dns-monitor   server 1: 194.158.206.205
+00:07:25.434085 dns-monitor   server 2: 194.158.206.206
+00:07:25.434101 dns-monitor   server 3: fe80::1%wlan0
+00:07:25.434117 dns-monitor   no domain set
+00:07:25.434131 dns-monitor   no search string entries
+00:08:25.561788 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:08:25.599983 nspr-7   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:08:43.918390 nspr-4   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:46.725955 nspr-3   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:47.053587 nspr-5   Saving settings file "/home/victor/VirtualBox VMs/Tests/Tests.vbox" with version "1.16-linux"
+00:08:48.699750 nspr-9   Launched VM: 1712346272 pid: 6801 (0x1a91) frontend: GUI/Qt name: Tests
+00:08:54.768675 nspr-3   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:08:55.370982 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:08:55.564766 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:12:14.810605 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:12:14.810657 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:12:14.810683 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:12:14.810702 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:12:14.810742 dns-monitor HostDnsMonitor: updating information
+00:12:14.810763 dns-monitor HostDnsMonitor: unchanged
+00:12:14.878413 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:12:14.878456 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:12:14.878498 dns-monitor HostDnsMonitor: updating information
+00:12:14.878574 dns-monitor HostDnsMonitor: old information
+00:12:14.878594 dns-monitor   server 1: 194.158.206.205
+00:12:14.878612 dns-monitor   server 2: 194.158.206.206
+00:12:14.878631 dns-monitor   server 3: fe80::1%wlan0
+00:12:14.878648 dns-monitor   no domain set
+00:12:14.878664 dns-monitor   no search string entries
+00:12:14.878681 dns-monitor HostDnsMonitor: new information
+00:12:14.878697 dns-monitor   server 1: 194.158.206.205
+00:12:14.878715 dns-monitor   server 2: 194.158.206.206
+00:12:14.878768 dns-monitor   no domain set
+00:12:14.878783 dns-monitor   no search string entries
+00:12:14.933944 dns-monitor HostDnsMonitor: updating information
+00:12:14.933978 dns-monitor HostDnsMonitor: old information
+00:12:14.933993 dns-monitor   server 1: 194.158.206.205
+00:12:14.934010 dns-monitor   server 2: 194.158.206.206
+00:12:14.934026 dns-monitor   no domain set
+00:12:14.934040 dns-monitor   no search string entries
+00:12:14.934056 dns-monitor HostDnsMonitor: new information
+00:12:14.934070 dns-monitor   no server entries
+00:12:14.934084 dns-monitor   no domain set
+00:12:14.934098 dns-monitor   no search string entries
+00:12:22.553142 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:12:22.553183 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:12:22.553226 dns-monitor HostDnsMonitor: updating information
+00:12:22.553244 dns-monitor HostDnsMonitor: old information
+00:12:22.553258 dns-monitor   no server entries
+00:12:22.553273 dns-monitor   no domain set
+00:12:22.553287 dns-monitor   no search string entries
+00:12:22.553302 dns-monitor HostDnsMonitor: new information
+00:12:22.553316 dns-monitor   server 1: fe80::1%wlan0
+00:12:22.553333 dns-monitor   no domain set
+00:12:22.553347 dns-monitor   no search string entries
+00:12:23.730930 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:12:23.730993 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:12:23.731043 dns-monitor HostDnsMonitor: updating information
+00:12:23.731086 dns-monitor HostDnsMonitor: unchanged
+00:12:24.813602 dns-monitor NAT: resolv.conf: nameserver 194.158.206.205
+00:12:24.813657 dns-monitor NAT: resolv.conf: nameserver 194.158.206.206
+00:12:24.813682 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:12:24.813701 dns-monitor NAT: resolv.conf: nameserver fe80::1
+00:12:24.813748 dns-monitor HostDnsMonitor: updating information
+00:12:24.813767 dns-monitor HostDnsMonitor: old information
+00:12:24.813784 dns-monitor   server 1: fe80::1%wlan0
+00:12:24.813802 dns-monitor   no domain set
+00:12:24.813817 dns-monitor   no search string entries
+00:12:24.813833 dns-monitor HostDnsMonitor: new information
+00:12:24.813848 dns-monitor   server 1: 194.158.206.205
+00:12:24.813865 dns-monitor   server 2: 194.158.206.206
+00:12:24.813882 dns-monitor   server 3: fe80::1%wlan0
+00:12:24.813899 dns-monitor   no domain set
+00:12:24.813913 dns-monitor   no search string entries
+00:12:26.454375 nspr-9   Saving settings file "/home/victor/VirtualBox VMs/Tests/Tests.vbox" with version "1.16-linux"
+00:12:28.701931 nspr-3   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:12:28.732965 nspr-9   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:12:28.758523 nspr-5   Saving settings file "/home/victor/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:12:34.375103 main     VirtualBox: object deletion starts
+00:12:34.376900 main     HostDnsMonitor: shutting down ...
+00:12:34.377511 main     HostDnsMonitor: shut down
+00:12:34.488253 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:12:39.379704 main     {00007f6844017400} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:12:39.380681 main     VirtualBox: object deleted

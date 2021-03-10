@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<FileZilla3 version="3.46.3" platform="*nix">
+	<InsecureHosts>
+		<Host Port="1874">192.168.100.3</Host>
+		<Host Port="1874">192.168.100.2</Host>
+		<Host Port="8080">192.168.100.10</Host>
+		<Host Port="21">192.168.100.1</Host>
+		<Host Port="8080">192.168.100.2</Host>
+	</InsecureHosts>
+</FileZilla3>
