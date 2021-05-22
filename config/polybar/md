@@ -1,0 +1,37 @@
+#!/bin/bash
+
+playerctl status 2> /dev/null 1> /dev/null
+
+if [ $? == 0 ]
+  then
+    if [[ $(playerctl status) != 'Stopped' ]];
+      then
+      	title=$(playerctl metadata title)
+      	artist=$(playerctl metadata artist)
+
+        if [[ ${#title}+${#artist} -gt 43 ]];
+          then
+          	if [[ ${#title} -gt 23 ]];
+              then
+              	title=${title::23}...
+            fi
+
+            if [[ ${#artist} -gt 20 ]];
+              then
+                artist=${artist::20}...
+            fi
+            echo $artist - $title
+          else
+            let a=43-${#title}-${#artist}
+            echo $artist - $title \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+        fi
+
+        #echo $artist - $title
+      
+      else
+        echo ''
+    fi
+
+  else
+    echo 'Open                                              '
+fi

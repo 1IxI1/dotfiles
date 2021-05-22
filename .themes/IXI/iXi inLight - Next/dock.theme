@@ -1,0 +1,41 @@
+#iXi inLight - Next Edition
+#
+#Created: June 2020
+#License: MIT © Alfredo F.
+#
+#Author: PT_Alfred
+#Social: https://mastodon.art/@PTAlfred
+
+
+[PlankTheme]
+TopRoundness=16
+BottomRoundness=16
+LineWidth=0
+OuterStrokeColor=0;;0;;0;;0
+FillStartColor=255;;255;;255;;91
+FillEndColor=255;;255;;255;;71
+InnerStrokeColor=0;;0;;0;;0
+
+[PlankDockTheme]
+HorizPadding=1.75
+TopPadding=1.75
+BottomPadding=2
+ItemPadding=2
+IndicatorSize=5
+IconShadowSize=1.25
+UrgentBounceHeight=1.75
+LaunchBounceHeight=0.625
+FadeOpacity=1
+ClickTime=175
+UrgentBounceTime=600
+LaunchBounceTime=600
+ActiveTime=25
+SlideTime=450
+FadeTime=350
+HideTime=375
+GlowSize=30
+GlowTime=10000
+GlowPulseTime=2750
+UrgentHueShift=175
+ItemMoveTime=450
+CascadeHide=true

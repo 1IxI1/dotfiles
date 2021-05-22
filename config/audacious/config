@@ -1,0 +1,29 @@
+
+[alsa]
+mixer-element=Master
+
+[audacious]
+equalizer_active=TRUE
+equalizer_bands=2.4,1.44,1.92,0,1.92,0,-4.32,-1.92,0,0
+shuffle=TRUE
+
+[audgui]
+filesel_path=/home/victor/Music
+
+[qtui]
+player_height=1044
+player_width=630
+
+[skins]
+equalizer_x=295
+equalizer_y=123
+mainwin_font=Ubuntu Bold 12
+player_x=1466
+player_y=103
+playlist_font=Ubuntu Bold 12
+playlist_y=122
+scope_mode=1
+skin=/usr/share/audacious/Skins/Default
+
+[skins-layout]
+eq_presets=814,442,288,192
